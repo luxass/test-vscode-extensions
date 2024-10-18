@@ -5,7 +5,7 @@ export default defineConfig({
   format: ["cjs"],
   clean: true,
   treeshake: true,
-  bundle: false,
+  bundle: true,
   target: ["node18", "es2022"],
   platform: "node",
   external: ["vscode"],
