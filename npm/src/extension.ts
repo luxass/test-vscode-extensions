@@ -5,8 +5,8 @@ const { activate, deactivate } = defineExtension(() => {
   const logger = useLogger("npm-pm-test-extension");
   logger.info("Extension Activated");
 
-  useCommand("npm-pm-test-extension.hello", () => {
-    window.showInformationMessage("Hello World!");
+  useCommand("npm-pm-test-extension.npm", () => {
+    window.showInformationMessage("This is using NPM as package manager!");
   });
 });
 

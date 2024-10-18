@@ -5,8 +5,8 @@ const { activate, deactivate } = defineExtension(() => {
   const logger = useLogger("yarn-pm-test-extension");
   logger.info("Extension Activated");
 
-  useCommand("yarn-pm-test-extension.hello", () => {
-    window.showInformationMessage("Hello World!");
+  useCommand("yarn-pm-test-extension.yarn", () => {
+    window.showInformationMessage("This is using Yarn as package manager!");
   });
 });
 

@@ -36,9 +36,9 @@
   "contributes": {
     "commands": [
       {
-        "command": "npm-pm-test-extension.hello",
-        "title": "Say Hello!",
-        "category": "Test Extension"
+        "command": "npm-pm-test-extension.npm",
+        "title": "By NPM",
+        "category": "NPM PM Test Extension"
       }
     ]
   },

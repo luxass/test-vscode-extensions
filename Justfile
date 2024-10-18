@@ -22,9 +22,9 @@ install:
 
 # build
 build:
-  just run-in-pm npm build
-  just run-in-pm yarn build
-  just run-in-pm pnpm build
+  just run-in-pm npm 'run build'
+  just run-in-pm yarn 'run build'
+  just run-in-pm pnpm 'run build'
   @echo '✅ Build complete!'
 
 # release

@@ -36,9 +36,9 @@
   "contributes": {
     "commands": [
       {
-        "command": "yarn-pm-test-extension.hello",
-        "title": "Say Hello!",
-        "category": "Test Extension"
+        "command": "yarn-pm-test-extension.yarn",
+        "title": "By Yarn",
+        "category": "Yarn PM Test Extension"
       }
     ]
   },
