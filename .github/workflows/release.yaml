@@ -46,3 +46,13 @@ jobs:
           else
             npm run build
           fi
+
+      - name: publish
+        uses: luxass/publish-vscode-extension@main
+        with:
+          token: ${{ secrets.VS_MARKETPLACE_TOKEN }}
+          registry: vs-marketplace
+          debug: true
+          manager: ${{ matrix.pm }}
+          extension-path: ${{ matrix.pm }}
+          dry-run: false
