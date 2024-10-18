@@ -1,7 +1,7 @@
 {
   "name": "yarn-pm-test-extension",
   "displayName": "Yarn PM Test Extension",
-  "version": "0.0.7",
+  "version": "0.0.8",
   "description": "Test extension publishing with Yarn",
   "author": {
     "name": "Lucas Nørgård",
