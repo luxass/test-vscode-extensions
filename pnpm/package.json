@@ -1,0 +1,59 @@
+{
+  "name": "pnpm-pm-test-extension",
+  "displayName": "PNPM PM Test Extension",
+  "version": "0.0.0",
+  "description": "Test extension publishing with PNPM",
+  "author": {
+    "name": "Lucas Nørgård",
+    "email": "lucasnrgaard@gmail.com",
+    "url": "https://luxass.dev"
+  },
+  "publisher": "luxass",
+  "packageManager": "pnpm@9.6.0",
+  "license": "MIT",
+  "homepage": "https://github.com/luxass/test-vscode-extensions",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/luxass/test-vscode-extensions",
+    "directory": "pnpm"
+  },
+  "bugs": {
+    "url": "https://github.com/luxass/test-vscode-extensions/issues"
+  },
+  "main": "./dist/extension.js",
+  "files": [
+    "LICENSE",
+    "README.md",
+    "dist",
+    "package.json"
+  ],
+  "engines": {
+    "vscode": "^1.94.0"
+  },
+  "activationEvents": [
+    "onStartupFinished"
+  ],
+  "contributes": {
+    "commands": [
+      {
+        "command": "pnpm-pm-test-extension.hello",
+        "title": "Say Hello!",
+        "category": "Test Extension"
+      }
+    ]
+  },
+  "scripts": {
+    "preinstall": "npx only-allow pnpm",
+    "vscode:prepublish": "tsup --minify",
+    "build": "tsup",
+    "dev": "tsup --watch",
+    "typecheck": "tsc --noEmit"
+  },
+  "devDependencies": {
+    "@types/vscode": "^1.94.0",
+    "@vscode/vsce": "^3.1.1",
+    "reactive-vscode": "0.2.5",
+    "tsup": "^8.3.0",
+    "typescript": "^5.6.3"
+  }
+}
