@@ -58,12 +58,12 @@ jobs:
           extension-path: ${{ matrix.pm }}
           dry-run: false
 
-      # - name: rename artifact
-      #   run: |
-      #     mv .vsix ${{ matrix.pm }}.vsix
+      - name: rename artifact
+        run: |
+          mv ${{ matrix.pm }}/*.vsix ${{ matrix.pm }}.vsix
 
-      # - name: upload artifact
-      #   uses: actions/upload-artifact@v4
-      #   with:
-      #     name: ${{ matrix.pm }}-vsix
-      #     path: ${{ matrix.pm }}.vsix
+      - name: upload artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: ${{ matrix.pm }}-vsix
+          path: ${{ matrix.pm }}.vsix
