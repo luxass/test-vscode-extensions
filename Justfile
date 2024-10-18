@@ -27,6 +27,11 @@ build:
   just _build pnpm
   @echo '✅ Build complete!'
 
+# release
+release:
+  npx bumpp npm/package.json yarn/package.json pnpm/package.json
+  @echo '✅ Release complete!'
+
 # install extension using pm
 [private]
 _install pm:
