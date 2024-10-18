@@ -1,0 +1,46 @@
+name: Release
+
+on:
+  push:
+    tags:
+      - "*"
+
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        pm: [npm, pnpm, yarn]
+    steps:
+      - uses: actions/checkout@v4.2.1
+
+      - name: setup node
+        uses: actions/setup-node@v4.0.4
+        with:
+          node-version: 20
+
+      - name: setup pnpm
+        if: matrix.pm == 'pnpm'
+        uses: pnpm/action-setup@v4.0.0
+
+      - name: install
+        run: |
+          cd ${{ matrix.pm }}
+          if [ "${{ matrix.pm }}" = "pnpm" ]; then
+            pnpm install --frozen-lockfile
+          elif [ "${{ matrix.pm }}" = "yarn" ]; then
+            yarn install --frozen-lockfile
+          else
+            npm ci
+          fi
+
+      - name: build
+        run: |
+          cd ${{ matrix.pm }}
+          if [ "${{ matrix.pm }}" = "pnpm" ]; then
+            pnpm build
+          elif [ "${{ matrix.pm }}" = "yarn" ]; then
+            yarn build
+          else
+            npm run build
+          fi
