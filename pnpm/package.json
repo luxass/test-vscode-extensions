@@ -1,7 +1,7 @@
 {
   "name": "pnpm-pm-test-extension",
   "displayName": "PNPM PM Test Extension",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "Test extension publishing with PNPM",
   "author": {
     "name": "Lucas Nørgård",
