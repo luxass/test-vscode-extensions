@@ -10,44 +10,29 @@ _default:
 
 # setup environment
 setup:
-  just install-npm
-  just install-yarn
-  just install-pnpm
+  just install
   @echo '✅ Setup complete!'
+
+# install
+install:
+  just _install npm
+  just _install yarn
+  just _install pnpm
+  @echo '✅ Install complete!'
 
 # build
 build:
-  just build-npm
-  just build-yarn
-  just build-pnpm
+  just _build npm
+  just _build yarn
+  just _build pnpm
   @echo '✅ Build complete!'
 
-# build npm
-build-npm:
-  cd ./npm && npm run build
-  @echo '✅ NPM build complete!'
+# install extension using pm
+[private]
+_install pm:
+  {{ if pm == "npm" { "cd npm && npm install" } else if pm == "yarn" { "cd yarn && yarn install" } else if pm == "pnpm" { "cd pnpm && pnpm install" } else { "echo 'Invalid package manager'" } }}
 
-# build yarn
-build-yarn:
-  cd ./yarn && yarn run build
-  @echo '✅ Yarn build complete!'
-
-# build pnpm
-build-pnpm:
-  cd ./pnpm && pnpm run build
-  @echo '✅ PNPM build complete!'
-
-# install npm
-install-npm:
-  cd ./npm && npm install
-  @echo '✅ NPM installed!'
-
-# install yarn
-install-yarn:
-  cd ./yarn && yarn install
-  @echo '✅ Yarn installed!'
-
-# install pnpm
-install-pnpm:
-  cd ./pnpm && pnpm install
-  @echo '✅ PNPM installed!'
+# build extension using pm
+[private]
+_build pm:
+  {{ if pm == "npm" { "cd npm && npm run build" } else if pm == "yarn" { "cd yarn && yarn build" } else if pm == "pnpm" { "cd pnpm && pnpm build" } else { "echo 'Invalid package manager'" } }}
