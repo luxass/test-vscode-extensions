@@ -25,6 +25,8 @@ jobs:
       - name: setup pnpm
         if: matrix.pm == 'pnpm'
         uses: pnpm/action-setup@v4.0.0
+        with:
+          package_json_file: 'pnpm/package.json'
 
       - name: install
         run: |
