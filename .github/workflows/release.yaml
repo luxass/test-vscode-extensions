@@ -60,7 +60,7 @@ jobs:
 
       - name: rename artifact
         run: |
-          mv ${{ matrix.pm }}/extension.vsix ${{ matrix.pm }}.vsix
+          mv extension.vsix ${{ matrix.pm }}.vsix
 
       - name: upload artifact
         uses: actions/upload-artifact@v4
