@@ -277,10 +277,10 @@
   resolved "https://registry.yarnpkg.com/@pkgjs/parseargs/-/parseargs-0.11.0.tgz#a77ea742fab25775145434eb1d2328cf5013ac33"
   integrity sha512-+1VkjdD0QBLPodGrJUeqarH8VAIvQODIbwh9XpP5Syisf7YoQgsJKPNFoqqLQlu+VQ/tVSshMR6loPMn8U+dPg==
 
-"@reactive-vscode/reactivity@0.2.5":
-  version "0.2.5"
-  resolved "https://registry.yarnpkg.com/@reactive-vscode/reactivity/-/reactivity-0.2.5.tgz#7be6c7db2f49d534ce87bde1db5bf043910184ee"
-  integrity sha512-Oq6V7gQ0WI7TKbBkY2xLE2aKqIZjs30sMcj+Bv2boqjwBWGQrnnOGOpDKMKtTUBDZnY7WdPgtiL9u92Kn+2qUw==
+"@reactive-vscode/reactivity@0.2.6":
+  version "0.2.6"
+  resolved "https://registry.yarnpkg.com/@reactive-vscode/reactivity/-/reactivity-0.2.6.tgz#950f00003a04471d8fe5cef023454ed4b4e5c789"
+  integrity sha512-qAzhi+8YbLJpylLr6n5D498280TyDkvNpJFG68FuZMZy2tXMqDzW7drR2yJ7xgagQ/zKlVlxzIPgzyBX4v2K5w==
 
 "@rollup/rollup-android-arm-eabi@4.24.0":
   version "4.24.0"
@@ -1680,12 +1680,12 @@ rc@^1.2.7:
     minimist "^1.2.0"
     strip-json-comments "~2.0.1"
 
-reactive-vscode@0.2.5:
-  version "0.2.5"
-  resolved "https://registry.yarnpkg.com/reactive-vscode/-/reactive-vscode-0.2.5.tgz#425ec62f9b1e10b0b83dd718c636ecac09f3f766"
-  integrity sha512-CknY2aedEzSfUhlOplIutBC6+xNvhrcz8rcS6UKTeyqHIfDz7pc6c/tlEboChqEeZvSXHhoo7FYoiYjR5pb2og==
+reactive-vscode@0.2.6:
+  version "0.2.6"
+  resolved "https://registry.yarnpkg.com/reactive-vscode/-/reactive-vscode-0.2.6.tgz#aac697244dc3df569f4cb17632fca0ca54eb11dc"
+  integrity sha512-JT1wiMpUS0txRtrcOYyI7UoGpVB3XmlCAdczeCL2NSJtRjwV3zm3n0aJaIEPq51cVKpmaQu9byx2guxj4bMi/Q==
   dependencies:
-    "@reactive-vscode/reactivity" "0.2.5"
+    "@reactive-vscode/reactivity" "0.2.6"
 
 read@^1.0.7:
   version "1.0.7"
