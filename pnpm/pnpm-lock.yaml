@@ -10,13 +10,13 @@ importers:
     devDependencies:
       '@types/vscode':
         specifier: ^1.94.0
-        version: 1.94.0
+        version: 1.95.0
       '@vscode/vsce':
         specifier: ^3.1.1
         version: 3.1.1
       reactive-vscode:
         specifier: 0.2.5
-        version: 0.2.5(@types/vscode@1.94.0)
+        version: 0.2.5(@types/vscode@1.95.0)
       tsup:
         specifier: ^8.3.0
         version: 8.3.0(typescript@5.6.3)
@@ -326,8 +326,8 @@ packages:
   '@types/estree@1.0.6':
     resolution: {integrity: sha512-AYnb1nQyY49te+VRAVgmzfcgjYS91mY5P0TKUDCLEM+gNnA+3T6rWITXRLYCpahpqSQbN5cE+gHpnPyXjHWxcw==}
 
-  '@types/vscode@1.94.0':
-    resolution: {integrity: sha512-UyQOIUT0pb14XSqJskYnRwD2aG0QrPVefIfrW1djR+/J4KeFQ0i1+hjZoaAmeNf3Z2jleK+R2hv+EboG/m8ruw==}
+  '@types/vscode@1.95.0':
+    resolution: {integrity: sha512-0LBD8TEiNbet3NvWsmn59zLzOFu/txSlGxnv5yAFHCrhG9WvAnR3IvfHzMOs2aeWqgvNjq9pO99IUw8d3n+unw==}
 
   '@vscode/vsce-sign-alpine-arm64@2.0.2':
     resolution: {integrity: sha512-E80YvqhtZCLUv3YAf9+tIbbqoinWLCO/B3j03yQPbjT3ZIHCliKZlsy1peNc4XNZ5uIb87Jn0HWx/ZbPXviuAQ==}
@@ -1546,7 +1546,7 @@ snapshots:
 
   '@types/estree@1.0.6': {}
 
-  '@types/vscode@1.94.0': {}
+  '@types/vscode@1.95.0': {}
 
   '@vscode/vsce-sign-alpine-arm64@2.0.2':
     optional: true
@@ -2329,10 +2329,10 @@ snapshots:
       strip-json-comments: 2.0.1
     optional: true
 
-  reactive-vscode@0.2.5(@types/vscode@1.94.0):
+  reactive-vscode@0.2.5(@types/vscode@1.95.0):
     dependencies:
       '@reactive-vscode/reactivity': 0.2.5
-      '@types/vscode': 1.94.0
+      '@types/vscode': 1.95.0
 
   read@1.0.7:
     dependencies:
