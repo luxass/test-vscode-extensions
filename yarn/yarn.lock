@@ -339,10 +339,10 @@
   resolved "https://registry.yarnpkg.com/@pkgjs/parseargs/-/parseargs-0.11.0.tgz#a77ea742fab25775145434eb1d2328cf5013ac33"
   integrity sha512-+1VkjdD0QBLPodGrJUeqarH8VAIvQODIbwh9XpP5Syisf7YoQgsJKPNFoqqLQlu+VQ/tVSshMR6loPMn8U+dPg==
 
-"@reactive-vscode/reactivity@0.3.0":
-  version "0.3.0"
-  resolved "https://registry.yarnpkg.com/@reactive-vscode/reactivity/-/reactivity-0.3.0.tgz#e104dce2d2b4da45d92f9dd0d697b5f6b7a633ba"
-  integrity sha512-eV9JUTqOjNfYp/RjxBuZhjASxego+HiR0Ze2BxWmElTO4aVzlafrOpDF1gHelcypge8xMMzOl0oWM3015UJMcg==
+"@reactive-vscode/reactivity@0.3.1":
+  version "0.3.1"
+  resolved "https://registry.yarnpkg.com/@reactive-vscode/reactivity/-/reactivity-0.3.1.tgz#8618a5da6ea12fe14ddfc6a3dd1187ac252ffaec"
+  integrity sha512-9Q8ThxVPo5qm78OQeZSOGd8ZtW4xi9O5TCCvzhx8sjcS42AsIsIvyAtIvbZyiWbcTmARuxWY8ejahCSF/Murvg==
 
 "@rollup/rollup-android-arm-eabi@4.41.1":
   version "4.41.1"
@@ -609,9 +609,9 @@
   integrity sha512-kRz0VEkJqWLf1LLVN4pT1cg1Z9wAuvI6L97V3m2f5B76Tg8d413ddvLBPTEHAZJlnn4XSvu0FkZtViCQGVyrXQ==
 
 "@types/vscode@^1.94.0":
-  version "1.101.0"
-  resolved "https://registry.yarnpkg.com/@types/vscode/-/vscode-1.101.0.tgz#0622ca26ea15aafbe570dc4d25917c75cafe578a"
-  integrity sha512-ZWf0IWa+NGegdW3iU42AcDTFHWW7fApLdkdnBqwYEtHVIBGbTu0ZNQKP/kX3Ds/uMJXIMQNAojHR4vexCEEz5Q==
+  version "1.102.0"
+  resolved "https://registry.yarnpkg.com/@types/vscode/-/vscode-1.102.0.tgz#186dd6d4755807754a18ca869384c93b821039f2"
+  integrity sha512-V9sFXmcXz03FtYTSUsYsu5K0Q9wH9w9V25slddcxrh5JgORD14LpnOA7ov0L9ALi+6HrTjskLJ/tY5zeRF3TFA==
 
 "@typespec/ts-http-runtime@^0.2.2", "@typespec/ts-http-runtime@^0.2.3":
   version "0.2.3"
@@ -2191,12 +2191,12 @@ rc@^1.2.7:
     minimist "^1.2.0"
     strip-json-comments "~2.0.1"
 
-reactive-vscode@0.3.0:
-  version "0.3.0"
-  resolved "https://registry.yarnpkg.com/reactive-vscode/-/reactive-vscode-0.3.0.tgz#0589cccd40723a7e13873b766c0c7a894047b223"
-  integrity sha512-wV39vjfWl6ezJNwN3ZisskVVjFecDyEa8cCQOmyj2NdczywwAEfXdzTyt8iVlLGKTjaFN8+E/MmPXc2Uva6cgw==
+reactive-vscode@0.3.1:
+  version "0.3.1"
+  resolved "https://registry.yarnpkg.com/reactive-vscode/-/reactive-vscode-0.3.1.tgz#3ad220c54008dd4d42480d0cb9da27715dcc5c45"
+  integrity sha512-uTMKdAHa9/Ax95VbswZsIOXH3k8fb45BKkLxU5RHaXOFbpudHlA9tecXQpKqPGkuyGFGZyPrjLBIGNBvB/qOYg==
   dependencies:
-    "@reactive-vscode/reactivity" "0.3.0"
+    "@reactive-vscode/reactivity" "0.3.1"
 
 read-pkg@^8.1.0:
   version "8.1.0"
