@@ -10,19 +10,19 @@ importers:
     devDependencies:
       '@types/vscode':
         specifier: ^1.94.0
-        version: 1.102.0
+        version: 1.103.0
       '@vscode/vsce':
         specifier: ^3.1.1
         version: 3.6.0
       reactive-vscode:
         specifier: 0.3.1
-        version: 0.3.1(@types/vscode@1.102.0)
+        version: 0.3.1(@types/vscode@1.103.0)
       tsup:
         specifier: ^8.3.0
-        version: 8.5.0(typescript@5.8.3)
+        version: 8.5.0(typescript@5.9.2)
       typescript:
         specifier: ^5.6.3
-        version: 5.8.3
+        version: 5.9.2
 
 packages:
 
@@ -456,8 +456,8 @@ packages:
   '@types/sarif@2.1.7':
     resolution: {integrity: sha512-kRz0VEkJqWLf1LLVN4pT1cg1Z9wAuvI6L97V3m2f5B76Tg8d413ddvLBPTEHAZJlnn4XSvu0FkZtViCQGVyrXQ==}
 
-  '@types/vscode@1.102.0':
-    resolution: {integrity: sha512-V9sFXmcXz03FtYTSUsYsu5K0Q9wH9w9V25slddcxrh5JgORD14LpnOA7ov0L9ALi+6HrTjskLJ/tY5zeRF3TFA==}
+  '@types/vscode@1.103.0':
+    resolution: {integrity: sha512-o4hanZAQdNfsKecexq9L3eHICd0AAvdbLk6hA60UzGXbGH/q8b/9xv2RgR7vV3ZcHuyKVq7b37IGd/+gM4Tu+Q==}
 
   '@typespec/ts-http-runtime@0.2.3':
     resolution: {integrity: sha512-oRhjSzcVjX8ExyaF8hC0zzTqxlVuRlgMHL/Bh4w3xB9+wjbm0FpXylVU/lBrn+kgphwYTrOk3tp+AVShGmlYCg==}
@@ -1442,6 +1442,7 @@ packages:
   source-map@0.8.0-beta.0:
     resolution: {integrity: sha512-2ymg6oRBpebeZi9UUNsgQ89bhx01TcTkmNTGnNO88imTmbSgy4nfujrgVEFKWpMTEGA11EDkTt7mqObTPdigIA==}
     engines: {node: '>= 8'}
+    deprecated: The work that was done in this beta branch won't be included in future versions
 
   spdx-correct@3.2.0:
     resolution: {integrity: sha512-kN9dJbvnySHULIluDHy32WHRUu3Og7B9sbY7tsFLctQkIqnMh3hErYgdMjTYuqmcXX+lK5T1lnUt3G7zNswmZA==}
@@ -1595,8 +1596,8 @@ packages:
   typed-rest-client@1.8.11:
     resolution: {integrity: sha512-5UvfMpd1oelmUPRbbaVnq+rHP7ng2cE4qoQkQeAqxRL6PklkxsM0g32/HL0yfvruK6ojQ5x8EE+HF4YV6DtuCA==}
 
-  typescript@5.8.3:
-    resolution: {integrity: sha512-p1diW6TqL9L07nNxvRMM7hMMw4c5XOo/1ibL4aAIGmSAt9slTE1Xgw5KWuof2uTOvCg9BY7ZRi+GaF+7sfgPeQ==}
+  typescript@5.9.2:
+    resolution: {integrity: sha512-CWBzXQrc/qOkhidw1OzBTQuYRbfyxDXJMVJ1XNwUHGROVmuaeiEm3OslpZ1RV96d7SKKjZKrSJu3+t/xlw3R9A==}
     engines: {node: '>=14.17'}
     hasBin: true
 
@@ -2079,7 +2080,7 @@ snapshots:
 
   '@types/sarif@2.1.7': {}
 
-  '@types/vscode@1.102.0': {}
+  '@types/vscode@1.103.0': {}
 
   '@typespec/ts-http-runtime@0.2.3':
     dependencies:
@@ -3017,10 +3018,10 @@ snapshots:
       strip-json-comments: 2.0.1
     optional: true
 
-  reactive-vscode@0.3.1(@types/vscode@1.102.0):
+  reactive-vscode@0.3.1(@types/vscode@1.103.0):
     dependencies:
       '@reactive-vscode/reactivity': 0.3.1
-      '@types/vscode': 1.102.0
+      '@types/vscode': 1.103.0
 
   read-pkg@8.1.0:
     dependencies:
@@ -3294,7 +3295,7 @@ snapshots:
 
   tslib@2.8.1: {}
 
-  tsup@8.5.0(typescript@5.8.3):
+  tsup@8.5.0(typescript@5.9.2):
     dependencies:
       bundle-require: 5.1.0(esbuild@0.25.5)
       cac: 6.7.14
@@ -3314,7 +3315,7 @@ snapshots:
       tinyglobby: 0.2.14
       tree-kill: 1.2.2
     optionalDependencies:
-      typescript: 5.8.3
+      typescript: 5.9.2
     transitivePeerDependencies:
       - jiti
       - supports-color
@@ -3340,7 +3341,7 @@ snapshots:
       tunnel: 0.0.6
       underscore: 1.13.7
 
-  typescript@5.8.3: {}
+  typescript@5.9.2: {}
 
   uc.micro@2.1.0: {}
 
