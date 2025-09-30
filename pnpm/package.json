@@ -9,7 +9,7 @@
     "url": "https://luxass.dev"
   },
   "publisher": "test-pm-extensions",
-  "packageManager": "pnpm@10.15.1",
+  "packageManager": "pnpm@10.17.1",
   "license": "MIT",
   "homepage": "https://github.com/luxass/test-vscode-extensions",
   "repository": {
@@ -51,7 +51,7 @@
   },
   "devDependencies": {
     "@types/vscode": "1.104.0",
-    "@vscode/vsce": "3.6.0",
+    "@vscode/vsce": "3.6.1",
     "reactive-vscode": "0.3.2",
     "tsup": "8.5.0",
     "typescript": "5.9.2"
