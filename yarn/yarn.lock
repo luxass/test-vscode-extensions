@@ -339,10 +339,10 @@
   resolved "https://registry.yarnpkg.com/@pkgjs/parseargs/-/parseargs-0.11.0.tgz#a77ea742fab25775145434eb1d2328cf5013ac33"
   integrity sha512-+1VkjdD0QBLPodGrJUeqarH8VAIvQODIbwh9XpP5Syisf7YoQgsJKPNFoqqLQlu+VQ/tVSshMR6loPMn8U+dPg==
 
-"@reactive-vscode/reactivity@0.3.2":
-  version "0.3.2"
-  resolved "https://registry.yarnpkg.com/@reactive-vscode/reactivity/-/reactivity-0.3.2.tgz#e701346f43f008259a9f4e35a4e51ed9f41ab4f6"
-  integrity sha512-TudPDxWleWJaJKAzRmDl3WOeIDijJNaokM9/SBxNEpe0z848z+lskeHQklczEPSv/ac9QnvsdKtBn9p/r64PNw==
+"@reactive-vscode/reactivity@0.3.3":
+  version "0.3.3"
+  resolved "https://registry.yarnpkg.com/@reactive-vscode/reactivity/-/reactivity-0.3.3.tgz#86e51b64f5ff737f02320ea345518af4fa41157e"
+  integrity sha512-AGRL6EtRd3fwjTag84ze10V4qxQM8L7O3e3G9syyXu2VomMIdXYnKHPEVgRpXfsMg3u2hBlTE76TiKg1wWzabg==
 
 "@rollup/rollup-android-arm-eabi@4.41.1":
   version "4.41.1"
@@ -682,10 +682,10 @@
     "@vscode/vsce-sign-win32-arm64" "2.0.5"
     "@vscode/vsce-sign-win32-x64" "2.0.5"
 
-"@vscode/vsce@3.6.1":
-  version "3.6.1"
-  resolved "https://registry.yarnpkg.com/@vscode/vsce/-/vsce-3.6.1.tgz#1a7b3ecc15306eb1ab383ab23cf01b1f52b2e391"
-  integrity sha512-UXtMgeCBl/t5zjn1TX1v1sl5L/oIv3Xc3pkKPGzaqeFCIkp5+wfFFDBXTWDt3d5uUulHnZKORHkMIsKNe9+k5A==
+"@vscode/vsce@3.6.2":
+  version "3.6.2"
+  resolved "https://registry.yarnpkg.com/@vscode/vsce/-/vsce-3.6.2.tgz#cefd2802f1dec24fca51293ae563e11912f545fd"
+  integrity sha512-gvBfarWF+Ii20ESqjA3dpnPJpQJ8fFJYtcWtjwbRADommCzGg1emtmb34E+DKKhECYvaVyAl+TF9lWS/3GSPvg==
   dependencies:
     "@azure/identity" "^4.1.0"
     "@secretlint/node" "^10.1.2"
@@ -2182,12 +2182,12 @@ rc@^1.2.7:
     minimist "^1.2.0"
     strip-json-comments "~2.0.1"
 
-reactive-vscode@0.3.2:
-  version "0.3.2"
-  resolved "https://registry.yarnpkg.com/reactive-vscode/-/reactive-vscode-0.3.2.tgz#eacbca994010a4e8402396cd5c7a8c1250455d6e"
-  integrity sha512-1IUoLFOOie3wM0X9MNRcMvublKTsBshm7gEuZTH5W6AVMPDP91o6F9NxIBM5bqzxOMeplrgaig1X3BWfVrw+xQ==
+reactive-vscode@0.3.3:
+  version "0.3.3"
+  resolved "https://registry.yarnpkg.com/reactive-vscode/-/reactive-vscode-0.3.3.tgz#680e5da84867b3c12e29ed239cd5f0b9c61bb76e"
+  integrity sha512-OlYT/G83se2zJFt8Tcfu1W24XgDnoEnGaJKzJLXTX6AZmZ+v1TYAkYPpw/fJXg7iNV1xTXjsHg45MTAKDQp9rA==
   dependencies:
-    "@reactive-vscode/reactivity" "0.3.2"
+    "@reactive-vscode/reactivity" "0.3.3"
 
 read-pkg@^9.0.1:
   version "9.0.1"
@@ -2702,10 +2702,10 @@ typed-rest-client@^1.8.4:
     tunnel "0.0.6"
     underscore "^1.12.1"
 
-typescript@5.9.2:
-  version "5.9.2"
-  resolved "https://registry.yarnpkg.com/typescript/-/typescript-5.9.2.tgz#d93450cddec5154a2d5cabe3b8102b83316fb2a6"
-  integrity sha512-CWBzXQrc/qOkhidw1OzBTQuYRbfyxDXJMVJ1XNwUHGROVmuaeiEm3OslpZ1RV96d7SKKjZKrSJu3+t/xlw3R9A==
+typescript@5.9.3:
+  version "5.9.3"
+  resolved "https://registry.yarnpkg.com/typescript/-/typescript-5.9.3.tgz#5b4f59e15310ab17a216f5d6cf53ee476ede670f"
+  integrity sha512-jl1vZzPDinLr9eUt3J/t7V6FgNEw9QjvBPdysz9KfQDD41fQrC2Y4vKQdiaUpFT4bXlb1RHhLpp8wtm6M5TgSw==
 
 uc.micro@^2.0.0, uc.micro@^2.1.0:
   version "2.1.0"
