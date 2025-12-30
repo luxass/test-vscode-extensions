@@ -50,10 +50,10 @@
     "typecheck": "tsc --noEmit"
   },
   "devDependencies": {
-    "@types/vscode": "1.104.0",
-    "@vscode/vsce": "3.6.2",
-    "reactive-vscode": "0.3.3",
-    "tsup": "8.5.0",
+    "@types/vscode": "1.107.0",
+    "@vscode/vsce": "3.7.1",
+    "reactive-vscode": "0.4.1",
+    "tsup": "8.5.1",
     "typescript": "5.9.3"
   }
 }
